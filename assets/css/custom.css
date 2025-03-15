@@ -21,3 +21,51 @@
 .social-vertical a img:hover {
     transform: scale(1.2);
 }
+
+
+  .footer {
+      background: #222;
+      color: #fff;
+      padding: 40px 0;
+  }
+  
+  .footer h5 {
+      color: #f8c210;
+  }
+
+  .footer a {
+      color: #ddd;
+      text-decoration: none;
+  }
+
+  .footer a:hover {
+      color: #f8c210;
+  }
+
+  .footer-bottom {
+      background: #111;
+      color: #ccc;
+      font-size: 14px;
+  }
+
+
+  .review-container {
+      width: 100%;
+      max-width: 400px;
+      margin: auto;
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  .review {
+      display: none;
+      font-size: 16px;
+      padding: 10px;
+  }
+
+  .review.active {
+      display: block;
+  }
+
