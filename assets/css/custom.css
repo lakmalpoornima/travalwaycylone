@@ -1,0 +1,23 @@
+.social-vertical {
+    position: fixed;
+    top: 50%;
+    right: 10px; /* Change to 'right: 10px' to move it to the right */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 15px;
+    z-index: 1000;
+}
+
+.social-vertical a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-vertical a img:hover {
+    transform: scale(1.2);
+}
